@@ -1,20 +1,27 @@
-import Link from 'next/link'
-import Image from 'next/image'
+import Link from "next/link";
+import Image from "next/image";
 
 type Props = {
-  title: string
-  src: string
-  slug?: string
-  width:number
-  height:number
-}
+  title: string;
+  src: string;
+  slug?: string;
+  width: number;
+  height: number;
+};
 
-const CoverImage = ({ title, src, slug,width,height }: Props) => {
+const CoverImage = ({ title, src, slug,width , height }: Props) => {
   const image = (
     <div>
-      <Image src={src} width={width} height={height} objectFit="contain" alt={`Cover Image for ${title}`} className="rounded-xl"/>
+      <Image
+        src={src}
+        width={width}
+        height={height}
+        objectFit="cover"
+        alt={`Cover Image for ${title}`}
+        className="rounded-xl"
+      />
     </div>
-  )
+  );
   return (
     <div className="sm:mx-0">
       {slug ? (
@@ -25,7 +32,7 @@ const CoverImage = ({ title, src, slug,width,height }: Props) => {
         image
       )}
     </div>
-  )
-}
+  );
+};
 
-export default CoverImage
+export default CoverImage;

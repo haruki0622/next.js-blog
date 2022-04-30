@@ -23,14 +23,8 @@ const PostPreview = ({
 }: Props) => {
   return (
     <div>
-      <div>
-        <CoverImage
-          slug={slug}
-          title={title}
-          src={coverImage}
-          width={400}
-          height={260}
-        />
+      <div className="w-full">
+        <CoverImage slug={slug} title={title} src={coverImage} width={900} height={530} />
       </div>
       <h3 className="text-2xl font-bold mb-2">
         <Link as={`/posts/${slug}`} href="/posts/[slug]">
