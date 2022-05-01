@@ -1,12 +1,12 @@
 // import Alert from './alert'
-import Footer from './footer'
-import Meta from './meta'
-import Header from './header'
+import Footer from "./footer";
+import Meta from "./meta";
+import Header from "./header";
 
 type Props = {
-  preview?: boolean
-  children: React.ReactNode
-}
+  preview?: boolean;
+  children: React.ReactNode;
+};
 
 const Layout = ({ preview, children }: Props) => {
   return (
@@ -14,12 +14,11 @@ const Layout = ({ preview, children }: Props) => {
       <Meta />
       <Header />
       <div className="min-h-screen">
-        {/* <Alert preview={preview} /> */}
         <main>{children}</main>
       </div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
