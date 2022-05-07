@@ -6,16 +6,14 @@
   @apply prose-h3:mt-8 prose-h3:text-xl;
   @apply prose-h4:mt-8;
 
-  @apply lg:prose-p:leading-9;
+  @apply lg:prose-p:leading-9 lg:prose-p:text-base;
 
   @apply prose-a:text-blue-400 prose-a:no-underline prose-a:visited:text-indigo-400;
 
   @apply prose-code:before:content-none prose-code:after:content-none;
   @apply prose-pre:bg-[#0d1117] prose-pre:p-2 prose-pre:shadow-lg prose-pre:rounded-tl-sm;
 
-
   @apply prose-strong:font-bold prose-strong:text-black;
-
 
   @apply marker:text-gray-400;
 }
