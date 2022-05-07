@@ -1,13 +1,13 @@
 ---
 title: '分かりやすいReactを解説する'
 excerpt: 'Next.jsでブログを作成しました！学習した技術や、読書のアウトプットに使用します！'
-coverImage: '/assets/blog/test/cover.jpg'
+coverImage: '/assets/blog/react/react.png'
 date: '2022-05/07'
 author:
   name: 泉原 遥輝 | Haruki Izumihara
   picture: '/assets/blog/authors/haruki.jpg'
 ogImage:
-  url: '/assets/blog/test/cover.jpg'
+  url: '/assets/blog/react/react.png'
 ---
 
 
