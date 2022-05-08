@@ -19,7 +19,7 @@ ogImage:
 ReactはJavaScriptのライブラリです。Facebookが運営していて効率的にUIを実装するためのライブラリです。UIとはWebサイトやWebアプリを使用するための部品です。
 
 例えば、いいねを押すことができるUIです。
-![UIの紹介]('https://next-js-blog-p3215u32c-haruki0622.vercel.app/public/assets/images/home-og.jpg')
+![UIの紹介](https://next-js-blog-p3215u32c-haruki0622.vercel.app/public/assets/images/home-og.jpg)
 
 
-![UIの紹介]('/assets/blog/react/react.png')
+![UIの紹介](/assets/blog/react/react.png)
