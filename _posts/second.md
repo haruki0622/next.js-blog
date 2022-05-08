@@ -22,4 +22,4 @@ ReactはJavaScriptのライブラリです。Facebookが運営していて効率
 ![UIの紹介]('https://next-js-blog-p3215u32c-haruki0622.vercel.app/public/assets/images/home-og.jpg')
 
 
-![UIの紹介]('https://next-js-blog-p3215u32c-haruki0622.vercel.app/public/assets/blog/react/react.png')
+![UIの紹介]('/assets/blog/react/react.png')
