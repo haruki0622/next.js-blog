@@ -1,7 +1,7 @@
 ---
-title: "Reactをシンプルに解説する"
-excerpt: "Next.jsでブログを作成しました！学習した技術や、読書のアウトプットに使用します！"
-coverImage: "/assets/blog/react/react.png"
+title: "無しでは生きられないアプリ3選"
+excerpt: "無しでは生きられないアプリを3つ紹介しました。無料のものもあるので是非インストールしてみて下さい！"
+coverImage: "/assets/blog/best-apps-for-mac/thumbnail.jpg"
 date: "2022-06-06"
 author:
   name: 泉原 遥輝 | Haruki Izumihara

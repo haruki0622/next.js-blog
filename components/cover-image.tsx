@@ -16,7 +16,7 @@ const CoverImage = ({ title, src, slug,width , height }: Props) => {
         src={src}
         width={width}
         height={height}
-        objectFit="cover"
+        objectFit="contain"
         alt={`Cover Image for ${title}`}
         className="rounded-lg"
       />
