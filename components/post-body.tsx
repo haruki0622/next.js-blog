@@ -14,7 +14,7 @@ const PostBody = ({ content }: Props) => {
     hljs.initHighlighting();
   }, []);
   return (
-    <div className="max-w-3xl mx-auto prose lg:prose-lg">
+    <div className="max-w-3xl mx-auto lg:prose-lg">
       <div
         className={markdownStyles["markdown"]}
         dangerouslySetInnerHTML={{ __html: content }}
