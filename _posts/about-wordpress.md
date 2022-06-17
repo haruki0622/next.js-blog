@@ -25,7 +25,7 @@ ogImage:
 ![ユーザーからWP](/assets/blog/about-wordpress/user-wp.jpg)
 
 2. 表示に必要な情報をデータベースに問い合わせします(クエリを要求)
-![WPからデータベース](/assets/blog/about-wordpress/user-wp.jpg)
+![WPからデータベース](/assets/blog/about-wordpress/wp-db.jpg)
 
 
 このような感じです。2番目のクエリを要求について補足しておきます。クエリとはデータベースにデータを要求することです。例えば、お知らせ一覧の記事が必要なら、記事をデータベースに問い合わせします。
