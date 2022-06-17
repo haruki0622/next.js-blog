@@ -23,7 +23,7 @@
   @apply marker:text-gray-900;
 }
 
-.hljs {
+pre code.hljs {
   font-size: 0.85em;
-  background-color: #011627;  
+  background-color: #011627;
 }
