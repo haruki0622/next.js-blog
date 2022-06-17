@@ -12,7 +12,7 @@
 
   @apply prose-pre:p-2 prose-pre:shadow-lg prose-pre:rounded-tl-sm;
 
-  @apply prose-code:before:content-none prose-code:after:content-none prose-code:font-normal prose-code:bg-gray-100 prose-code:p-2 prose-code:text-[0.9em];
+  @apply prose-code:before:content-none prose-code:after:content-none prose-code:font-normal prose-code:bg-gray-100 prose-code:p-2 prose-code:text-[0.9em] prose-code:rounded-sm;
 
   @apply prose-strong:font-bold prose-strong:text-black;
 
@@ -20,10 +20,10 @@
 
   @apply prose-ol:list-decimal;
 
-
   @apply marker:text-gray-900;
 }
 
 .hljs {
   font-size: 0.85em;
+  background-color: #011627;  
 }
