@@ -10,8 +10,9 @@
 
   @apply prose-a:text-blue-400 prose-a:no-underline prose-a:visited:text-indigo-400;
 
+  @apply prose-pre:p-2 prose-pre:shadow-lg prose-pre:rounded-tl-sm;
+
   @apply prose-code:before:content-none prose-code:after:content-none prose-code:font-normal prose-code:bg-gray-100 prose-code:p-2 prose-code:text-[0.9em];
-  @apply prose-pre:bg-[#0d1117] prose-pre:p-2 prose-pre:shadow-lg prose-pre:rounded-tl-sm;
 
   @apply prose-strong:font-bold prose-strong:text-black;
 
