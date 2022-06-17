@@ -10,7 +10,7 @@ type Props = {
 
 const Layout = ({ preview, children }: Props) => {
   return (
-    <div className="px-3 antialiased">
+    <div className="px-3">
       <Meta />
       <Header />
       <div className="min-h-screen">

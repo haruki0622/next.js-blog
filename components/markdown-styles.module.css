@@ -6,7 +6,7 @@
   @apply prose-h3:mt-8 prose-h3:font-bold prose-h3:text-xl;
   @apply prose-h4:mt-8;
 
-  @apply prose-p:text-gray-900 lg:prose-p:leading-9 lg:prose-p:text-[17px];
+  @apply prose-p:text-black lg:prose-p:leading-9 lg:prose-p:text-[17px];
 
   @apply prose-a:text-blue-400 prose-a:no-underline prose-a:visited:text-indigo-400;
 
@@ -15,12 +15,12 @@
 
   @apply prose-strong:font-bold prose-strong:text-black;
 
-  @apply prose-li:list-disc;
+  @apply prose-ul:list-disc;
 
   @apply prose-ol:list-decimal;
 
 
-  @apply marker:text-gray-400;
+  @apply marker:text-gray-900;
 }
 
 .hljs {
