@@ -1,6 +1,6 @@
 ---
-title: "WordPressの仕組みとメインループ,サブループについて"
-excerpt: "WordPressの仕組みとメインループとサブループについて解説しました。コードを書いてみると理解が深まると思います。"
+title: "WordPressの仕組みついて"
+excerpt: "WordPressの仕組みについて解説しました。テーマの開発には欠かせない知識なので、マスターして下さい！"
 coverImage: "/assets/blog/about-wordpress/thumbnail.jpg"
 date: "2022-06-17"
 author:
