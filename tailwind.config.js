@@ -11,6 +11,9 @@ module.exports = {
       colors: {
         darkgrey: '#222831', //darkModeで使用したい色を拡張定義
       },
+      fontFamily: {
+        noto: ["'Noto Sans JP', sans-serif"],
+      },
     },
   },
   plugins: [

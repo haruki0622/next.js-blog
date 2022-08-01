@@ -30,8 +30,14 @@ export default class MyDocument extends Document {
           />
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+            rel="stylesheet"
+          />
         </Head>
-        <body>
+        <body className="">
           <Main />
           <NextScript />
         </body>
