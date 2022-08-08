@@ -14,8 +14,8 @@ const CoverImage = ({ title, src, slug, width, height }: Props) => {
     <div>
       <Image
         src={src}
-        // width={width}
-        // height={height}
+        // width="100%"
+        // height="100%"
         layout="fill"
         objectFit="contain"
         alt={`Cover Image for ${title}`}
@@ -32,7 +32,6 @@ const CoverImage = ({ title, src, slug, width, height }: Props) => {
       ) : (
         image
       )}
-      
     </div>
   );
 };
