@@ -5,17 +5,18 @@ type Props = {
   title: string;
   src: string;
   slug?: string;
-  width: number;
-  height: number;
+  width?: number;
+  height?: number;
 };
 
-const CoverImage = ({ title, src, slug,width , height }: Props) => {
+const CoverImage = ({ title, src, slug, width, height }: Props) => {
   const image = (
     <div>
       <Image
         src={src}
-        width={width}
-        height={height}
+        // width={width}
+        // height={height}
+        layout="fill"
         objectFit="contain"
         alt={`Cover Image for ${title}`}
         className="rounded-lg"
@@ -31,8 +32,8 @@ const CoverImage = ({ title, src, slug,width , height }: Props) => {
       ) : (
         image
       )}
+      
     </div>
   );
 };
-
 export default CoverImage;

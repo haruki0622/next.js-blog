@@ -6,12 +6,12 @@ const Header = () => {
     <header className="py-3 container mx-auto lg:max-w-4xl lg:py-5">
       <div className="flex justify-between items-center">
         <Link href="/">
-          <a>
+          <a className="relative w-[5rem] h-[2rem] lg:w-[7rem]">
             <Image
               src="/images/logo.svg"
-              width={100}
-              height={30}
+              layout="fill"
               alt="header-logo"
+              objectFit="contain"
             />
           </a>
         </Link>
