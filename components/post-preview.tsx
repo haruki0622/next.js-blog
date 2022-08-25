@@ -15,13 +15,13 @@ type Props = {
 const PostPreview = ({ title, coverImage, date, excerpt, slug }: Props) => {
   return (
     <div>
-      <div className="w-full relative h-[58vw] md:h-[28vw] lg:h-[15vw]">
-        <CoverImage
+      <div className="">
+      <CoverImage
           slug={slug}
           title={title}
           src={coverImage}
-          width={900}
-          height={530}
+          width={1200}
+          height={700}
         />
       </div>
       <h3 className="text-xl font-bold mb-2 lg:text-2xl lg:my-4">

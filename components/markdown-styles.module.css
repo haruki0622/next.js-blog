@@ -1,19 +1,23 @@
 .markdown {
   @apply tracking-wide;
   @apply prose-headings:mb-4 prose-headings:pb-1 prose-headings:leading-snug prose-headings:text-black;
-  @apply prose-h2:mt-12 lg:prose-h2:text-3xl lg:prose-h2:mb-7 lg:prose-h2:mt-24 lg:prose-h2:pb-3 prose-h2:border-b prose-h2:border-gray-300 prose-h2:font-bold;
-  @apply prose-h3:mt-8 prose-h3:font-bold prose-h3:text-xl lg:prose-h3:mt-14 prose-h3:mb-1;
+@apply prose-h2:mt-12 lg:prose-h2:text-3xl lg:prose-h2:mb-7 lg:prose-h2:mt-16 lg:prose-h2:pb-3 prose-h2:border-b prose-h2:border-gray-300 prose-h2:font-bold;
+  @apply prose-h3:mt-8 prose-h3:font-bold prose-h3:text-xl lg:prose-h3:mt-8 prose-h3:mb-1;
   @apply prose-h4:mt-8;
-  @apply prose-p:text-black lg:prose-p:leading-9 lg:prose-p:text-[17px];
+  @apply prose-p:text-black prose-p:mb-0 lg:prose-p:leading-9 lg:prose-p:text-[17px];
   @apply prose-a:text-blue-400 prose-a:no-underline prose-a:visited:text-indigo-400;
   @apply prose-pre:p-2 prose-pre:shadow-lg prose-pre:rounded-tl-sm;
   @apply prose-code:before:content-none prose-code:after:content-none prose-code:font-normal prose-code:text-[#778899] prose-code:p-2 prose-code:text-[0.9em] prose-code:rounded-sm;
   @apply prose-strong:font-bold prose-strong:text-black;
-  @apply prose-ul:list-disc;
-  @apply prose-ol:list-decimal;
+  @apply prose-ul:list-disc prose-ul:mt-4;
+  @apply prose-ol:list-decimal prose-ol:mt-4;
   @apply lg:prose-li:text-[17px];
 
-  @apply marker:text-gray-900;
+  @apply marker:text-gray-700;
+  @apply prose-table:border  prose-table:border-gray-200 prose-table:border-collapse;
+  @apply prose-thead:bg-[#EDF2F6];
+  @apply prose-th:p-2 prose-th:border prose-th:border-gray-200;
+  @apply prose-td:p-2 prose-td:border prose-td:border-gray-200
 }
 
 .hljs {

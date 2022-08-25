@@ -14,12 +14,12 @@ const CoverImage = ({ title, src, slug, width, height }: Props) => {
     <div>
       <Image
         src={src}
-        // width="100%"
-        // height="100%"
-        layout="fill"
+        layout="responsive"
+        width={width}
+        height={height}
         objectFit="contain"
         alt={`Cover Image for ${title}`}
-        className="rounded-lg"
+        className="rounded-sm"
       />
     </div>
   );
