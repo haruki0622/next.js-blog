@@ -1,5 +1,5 @@
 ---
-title: "キーボードだけでMacを操作する方法"
+title: ""
 excerpt: "キーボードだけでPCの操作をするために試行錯誤した内容をまとめています。"
 coverImage: "/assets/blog/only-use-keyboard/thumbnail.jpg"
 date: "2022-08-24"

@@ -16,11 +16,20 @@ const Header = () => {
           </a>
         </Link>
         <nav>
-          <ul>
-            <li className="lg:text-xl">
+          <ul className="flex gap-x-5 lg:flex-row lg:gap-x-10">
+            <li>
               <Link href="/about" passHref>
-                About
+                <a className="text-[14px] lg:text-base">About</a>
               </Link>
+            </li>
+            <li>
+              <a
+                href="https://next-js-portfolio-rouge.vercel.app/"
+                target="_blank"
+                className="text-[14px] lg:text-base"
+              >
+                Portfolio
+              </a>
             </li>
           </ul>
         </nav>

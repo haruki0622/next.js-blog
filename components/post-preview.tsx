@@ -24,12 +24,12 @@ const PostPreview = ({ title, coverImage, date, excerpt, slug }: Props) => {
           height={700}
         />
       </div>
-      <h3 className="text-xl font-bold mb-2 lg:text-2xl lg:my-4">
+      <h3 className="text-lg mt-1 font-bold mb-1 lg:text-2xl lg:my-4">
         <Link as={`/posts/${slug}`} href="/posts/[slug]">
           <a className="hover:no-underline">{title}</a>
         </Link>
       </h3>
-      <div className="text-lg mb-4 text-gray-500 ">
+      <div className="text-[14] mb-1 text-slate-500 ">
         <DateFormatter dateString={date} />
       </div>
       <p className="text-base leading-relaxed mb-4 text-gray-500">{excerpt}</p>
